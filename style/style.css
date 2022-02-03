@@ -1,0 +1,133 @@
+:root{
+    --vermelho: #E50914;
+    --preto: rgb(14, 14, 14);
+}
+
+/* principal*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body{
+    background-color: rgb(14, 14, 14);
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.2;
+    font-size: .75vw;
+}
+
+ header .container {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+
+     
+ }
+
+
+header .logo {
+    color: var(--vermelho);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-left: 5px;
+    margin-top: 10px;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.2;
+    font-weight: 700;
+    cursor: default;
+}
+
+.nav-bar{
+    font-size: 13px;
+    color: #fff;
+    margin-left: 20px;
+}
+
+header nav a:hover{
+    color: #aaa;
+    
+}
+
+/*filme principal*/
+
+main .filme-principal {
+    font-size: 16px;
+    background-image: url(/img/she-ra.jpg);
+    height:400px;
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+
+main .descricao{
+    color: #fff;
+    font-weight: 400;
+    line-height: normal;
+    width: 40%;
+    font-size: 1.4vw;
+    text-shadow: 2px 2px 4px rbga(black);
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+
+}
+
+.botao {
+    background-color: rgba(17, 16, 16, 0.733);
+    border: none;
+    color: white;
+    padding: 15px;
+    margin-right: 5px;
+    transition: -3s ease all;
+    border: 0;
+    border-radius: 4px;
+    margin-left: 20px;
+}
+
+.titulo{
+    font-size: 40px;
+    font-family: 
+    'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 20px;
+}
+.botao:hover{
+    background-color: white;
+    color: rgb(17, 16, 16);
+    
+}
+
+
+/* box inicial*/
+
+.item{
+    width: 100%;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+
+.em-alta{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.item:hover{
+    background-color: #aaa;
+}
